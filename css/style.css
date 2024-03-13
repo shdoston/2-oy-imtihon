@@ -120,15 +120,33 @@ h1 {
   font-weight: 700;
   font-size: 15px;
 }
+.sitenav-list-inner {
+  background-color: #ffffff;
+  position: absolute;
+  width: 124px;
+  width: 124px;
+}
+.sitenav-item-inner {
+}
+.sitenav-link-inner {
+  display: inline-block;
+  width: 100%;
+  padding: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  &:hover {
+    background-color: #00bafc;
+  }
+}
 /*main start */
 .main-container {
   display: flex;
   width: 1100px;
   height: 418px;
 }
-.card-image{
+.card-image {
   margin-left: 280px;
-  width:200px;
+  width: 200px;
 }
 
 .hero {
@@ -218,7 +236,6 @@ h1 {
   align-items: center;
 }
 
- 
 .center-link {
   margin-top: 18px;
   margin-left: 16px;
@@ -226,11 +243,6 @@ h1 {
 .center-links {
   margin-right: 14px;
 }
-
-
-
-
-
 
 /*main section */
 /* main start */
@@ -249,10 +261,6 @@ h1 {
   margin-top: 56px;
 }
 
-
-
-
-
 .image-name {
   display: flex;
   margin-left: 280px;
@@ -261,31 +269,34 @@ h1 {
 
 .card_images {
   margin-left: 280px;
-  width: 200px
-
+  width: 200px;
 }
-
-
-
-
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
 .servis-itm {
   display: flex;
-  align-items:center;
+  align-items: center;
   gap: 8px;
 }
 
 .text1 {
   display: flex;
   margin-bottom: 16px;
-  margin-right: auto;
+  margin-right: 32px;
 }
 
 .top-btn {
   margin-top: 16px;
-margin-bottom: 32px;
+  margin-bottom: 32px;
 }
-
 
 /* main end */
 /* main start */
@@ -337,6 +348,17 @@ margin-bottom: 32px;
 }
 .div-item {
   height: 250px;
+}
+.container1{
+  display: flex;
+  gap: 300px;
+}
+.container2{
+display: flex;
+gap: 300px;
+}
+.btn0{
+  
 }
 /* main end */
 
